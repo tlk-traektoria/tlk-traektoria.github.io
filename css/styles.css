@@ -1,0 +1,257 @@
+﻿*
+{
+	box-sizing: border-box;
+	font-family: HNUL;
+	font-weight: bold;
+	margin: 0;
+	outline: none;
+	padding: 0;
+	transition: all 0.25s ease-in-out;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body
+{
+	background: #FAFAFA;
+	overflow-x: hidden;
+}
+
+button
+{
+	background: #BBBBBB;
+	border: none;
+	border-radius: 4px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25);
+	color: Black;
+	font-weight: bold;
+	padding: 0.5em 2em;
+	text-transform: uppercase;
+}
+
+button:active
+{
+	background: #888888;
+}
+
+button:hover
+{
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.25);
+}
+
+hr
+{
+	background: Red;
+	border: 1px solid Transparent;
+}
+
+iframe
+{
+	border: none;
+	box-sizing: border-box;
+	display: block;
+	height: 100%;
+	margin: 0;
+	width: 97.75%;
+}
+
+textarea, #Subject
+{
+	border: none;
+	border-bottom: 2px solid Red;
+	box-sizing: border-box;
+	color: #949494;s
+	display: block;
+	font-size: 24px;
+	height: 320px;
+	resize: none;
+	transition: all 0.25s ease-in-out;
+	width: 97.75%;
+}
+
+textarea::-webkit-input-placeholder, #Subject::-webkit-input-placeholder
+{
+	color: Red;
+	font-size: 24px;
+	opacity: 0.5;
+}
+
+textarea:hover::-webkit-input-placeholder, , #Subject:hover::-webkit-input-placeholder
+{
+	opacity: 0;
+}
+
+.CardView
+{
+	background: #FFFFFF;
+	border-radius: 4px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25);
+	margin: 16px;
+	padding: 16px;
+}
+
+.CardView *
+{
+	letter-spacing: 4px;
+	margin: 16px;
+}
+
+.CardView h1
+{
+	font-size: 36px;
+}
+
+.CardView h2
+{
+	font-size: 30px;
+}
+
+.CardView p
+{
+	font-size: 24px;
+	letter-spacing: 4px;
+}
+
+.CardView .List
+{
+	font-size: 24px;
+	list-style: none;
+}
+
+.Footer
+{
+	background: #00BFA5;
+	bottom: 0;
+	color: White;
+	padding: 16px;
+	position: stick;
+}
+
+.Header
+{
+	background: #00BFA5;
+	color: White;
+	padding: 16px;
+}
+
+.Header *
+{
+	font-size: 16px;
+}
+
+.Header a
+{
+	color: White;
+	text-decoration: none;
+}
+
+.Header .Nav
+{
+	float: right;
+}
+
+.Header #Dropdown
+{
+	display: inline-block;
+}
+
+.Header #Dropdown:hover div
+{
+	background: #FFFFFF;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+	display: block;
+}
+
+.Header #Dropdown div
+{
+	display: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+}
+
+.Header #Dropdown div a
+{
+	color: #949494;
+	display: block;
+	margin: 0;
+	padding: 16px;
+}
+
+.Header #Dropdown div a:hover
+{
+	background: #EEEEEE;
+}
+
+.Slideshow .Text
+{
+	background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+	color: white;
+	padding: 8px;
+	position: absolute;
+	top: 460px;
+	width: 100%;
+}
+
+#Image
+{
+	background-position: center;
+	height: 480px;
+	object-fit: cover;
+	width: 100%;
+}
+
+@font-face
+{
+	font-family: HNUL;
+	src: url(../fonts/Helvetica.otf);
+}
+
+@media (max-width: 600px)
+{
+	iframe
+	{
+		width: 91.75%;
+	}
+	
+	textarea, #Subject
+	{
+		width: 91%;
+	}
+
+	.CardView h1
+	{
+		font-size: 30px;
+	}
+	
+	.CardView h2
+	{
+		font-size: 24px;
+	}
+	
+	.CardView p
+	{
+		font-size: 16px;
+		letter-spacing: 4px;
+	}
+	
+	.CardView .List
+	{
+		font-size: 14px;
+		list-style: none;
+	}
+	
+	.Slideshow .Text
+	{
+		background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+		color: white;
+		padding: 8px;
+		position: absolute;
+		top: 300px;
+		width: 100%;
+	}
+	
+	#Image
+	{
+		height: 320px;
+	}
+}
